@@ -1,4 +1,8 @@
 import React from "react"
+import Conditional from "./components/Conditional"
+// import NestedRendering from "./components/NestedRendering"
+// import ListRendering from "./components/ListRendering"
+// import LayoutEffect from "./components/UseLayout"
 // import MultiEffect from "./components/MultiEffect"
 // import Fetch2 from "./components/Fetch2"
 // import Unmount from "./components/Unmount"
@@ -54,6 +58,11 @@ function App(){
      {/* <Unmount/> */}
      {/* <Fetch2/> */}
      {/* <MultiEffect/> */}
+     {/* <LayoutEffect/> */}
+     {/* <ListRendering/> */}
+     {/* <NestedRendering/> */}
+     <Conditional/>
+
     </div>
   )
 }

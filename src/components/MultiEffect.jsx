@@ -1,24 +1,24 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
-function MultiEffect() {
-  const [count, setCount] = useState(0);
-
-  
-  useEffect(() => {
-    console.log("Component mounted");
-  }, []);
+// function MultiEffect() {
+//   const [count, setCount] = useState(0);
 
   
-  useEffect(() => {
-    console.log("Count changed:", count);
-  }, [count]);
+//   useEffect(() => {
+//     console.log("Component mounted");
+//   }, []);
 
-  return (
-    <>
-      <h2>{count}</h2>
-      <button onClick={() => setCount(count + 1)}> Increment </button>
-    </>
-  );
-}
+  
+//   useEffect(() => {
+//     console.log("Count changed:", count);
+//   }, [count]);
 
-export default MultiEffect;
+//   return (
+//     <>
+//       <h2>{count}</h2>
+//       <button onClick={() => setCount(count + 1)}> Increment </button>
+//     </>
+//   );
+// }
+
+// export default MultiEffect;
